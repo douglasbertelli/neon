@@ -4,8 +4,8 @@ header {
   left: 0;
   display: flex;
   width: 100%;
-  background-color: $brand-blue-light;
   height: 8.8rem;
+  border-bottom: 2px solid rgba(255,255,255, 0.2);
 
   .container {
     @include flex(row, center, space-between);
