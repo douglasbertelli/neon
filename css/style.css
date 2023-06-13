@@ -267,4 +267,166 @@ h4 {
   z-index: 1;
 }
 
+.s-card-neon {
+  padding-top: 12.9rem;
+}
+.s-card-neon .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.s-card-neon .left-area {
+  width: 100%;
+  max-width: 27.7rem;
+}
+.s-card-neon .left-area .ilustra-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 27.7rem;
+  margin-bottom: 12.9rem;
+}
+.s-card-neon .left-area .ilustra-mockup .circle {
+  position: absolute;
+  top: 8.7rem;
+  left: -21.4rem;
+  z-index: -1;
+  max-width: 37.7rem;
+}
+.s-card-neon .left-area .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.s-card-neon .left-area .text .icon {
+  position: relative;
+  margin-bottom: 3.6rem;
+}
+.s-card-neon .left-area .text .icon:before {
+  content: "";
+  width: 5px;
+  height: 8.3rem;
+  background: #000;
+  position: absolute;
+  top: -10.4rem;
+  left: calc(50% - 2.5px);
+  background: url("../img/points.svg") no-repeat center center;
+}
+.s-card-neon .left-area .text .text-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.s-card-neon .left-area .text .text-info h3 {
+  color: #33303E;
+}
+.s-card-neon .left-area .text .text-info p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #5F5C6B;
+  opacity: 0.8;
+  margin-bottom: 2.6rem;
+}
+.s-card-neon .left-area .text .text-info h3, .s-card-neon .left-area .text .text-info p {
+  text-align: center;
+}
+.s-card-neon .left-area .text .text-info ul li:not(:last-child) {
+  margin-bottom: 2.6rem;
+}
+.s-card-neon .right-area {
+  width: 100%;
+  max-width: 80rem;
+}
+.s-card-neon .right-area .main-text {
+  margin-bottom: 11.4rem;
+}
+.s-card-neon .right-area .main-text h2 {
+  max-width: 48.8rem;
+  color: #33303E;
+  margin-bottom: 4.9rem;
+}
+.s-card-neon .right-area .main-text ul {
+  margin-bottom: 3.2rem;
+}
+.s-card-neon .right-area .main-text ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(239, 239, 239, 0.9);
+  padding: 3.3rem 0rem;
+}
+.s-card-neon .right-area .main-text ul li:first-child {
+  margin-top: 0;
+}
+.s-card-neon .right-area .main-text ul li .info {
+  display: flex;
+  align-items: center;
+}
+.s-card-neon .right-area .main-text ul li .info .txt {
+  margin-left: 4.3rem;
+}
+.s-card-neon .right-area .main-text ul li .info .txt h3 {
+  color: #5F5C6B;
+}
+.s-card-neon .right-area .main-text ul li .info .txt p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #C6C5Ce;
+}
+.s-card-neon .right-area .main-text .btn {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  font-width: 500;
+  font-size: 1.6rem;
+  line-height: 112%;
+  letter-spacing: -0.5px;
+  color: #0073CE;
+}
+.s-card-neon .right-area .main-text .btn:after {
+  content: "_";
+  margin-left: 0.8rem;
+  color: #FFC800;
+}
+.s-card-neon .right-area .box-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 41rem;
+  background: url("../img/bg-box-card-neon.svg") no-repeat center center;
+  border-radius: 12px;
+  padding-left: 5.9rem;
+}
+.s-card-neon .right-area .box-card .text {
+  width: 100%;
+  max-width: 38rem;
+}
+.s-card-neon .right-area .box-card .text h2, .s-card-neon .right-area .box-card .text h3, .s-card-neon .right-area .box-card .text p {
+  color: #FFFFFF;
+}
+.s-card-neon .right-area .box-card .text h2 {
+  margin-bottom: 1.1rem;
+}
+.s-card-neon .right-area .box-card .text h3 {
+  max-width: 32.7rem;
+  margin-bottom: 0.8rem;
+}
+.s-card-neon .right-area .box-card .text p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-bottom: 3.1rem;
+}
+.s-card-neon .right-area .box-card .text .btns {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.s-card-neon .right-area .box-card .image {
+  margin-right: -3.1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
