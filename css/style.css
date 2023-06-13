@@ -146,7 +146,7 @@ h4 {
   color: #00A5F0;
 }
 
-.card-depoimentos {
+.card-depoimento {
   width: 100%;
   max-width: 38.4rem;
   height: 20.9rem;
@@ -154,14 +154,14 @@ h4 {
   border-radius: 8px;
   padding: 3rem 4rem;
 }
-.card-depoimentos .user {
+.card-depoimento .user {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.card-depoimentos .user strong {
+.card-depoimento .user strong {
   display: block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -170,7 +170,7 @@ h4 {
   letter-spacing: -1px;
   color: #4E4B59;
 }
-.card-depoimentos p {
+.card-depoimento p {
   font-size: 1.8rem;
   line-height: 150%;
   color: #5F5C6B;
@@ -427,6 +427,40 @@ h4 {
 }
 .s-card-neon .right-area .box-card .image {
   margin-right: -3.1rem;
+}
+
+.s-depoimentos {
+  padding-top: 13.5rem;
+}
+.s-depoimentos .container {
+  overflow: hidden;
+}
+.s-depoimentos .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 4rem;
+}
+.s-depoimentos .top h2 span {
+  display: block;
+  color: #C6C5Ce;
+  margin-bottom: 1.4rem;
+}
+.s-depoimentos .top .swiper-pagination {
+  position: relative;
+  width: auto;
+}
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet {
+  background: #FFC800;
+  opacity: 0.13;
+  border-radius: 1.2rem;
+  transition: all 0.3s;
+}
+.s-depoimentos .top .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 1.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

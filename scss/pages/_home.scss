@@ -279,3 +279,44 @@
 
   }
 }
+
+.s-depoimentos {
+  padding-top: 13.5rem;
+
+  .container {
+    overflow: hidden;
+  }
+
+  .top {
+    @include flex(row, flex-end, space-between);
+    position: relative;
+    margin-bottom: 4.0rem;
+
+    h2 {
+      span {
+        display: block;
+        color: $gray-200;
+        margin-bottom: 1.4rem;
+      }
+    }
+
+    .swiper-pagination {
+      position: relative;
+      width: auto;
+
+      .swiper-pagination-bullet {
+        background: $brand-yellow;
+        opacity: 0.13;
+        border-radius: 1.2rem;
+        transition: all .3s;
+
+        &-active {
+          opacity: 1;
+          width: 1.7rem;
+        }
+      }
+    }
+
+  }
+
+}

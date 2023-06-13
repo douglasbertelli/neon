@@ -8,8 +8,8 @@
     <title>Neon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
@@ -33,7 +33,7 @@
     </div>
 </header>
 <main>
-    <div class="s-hero">
+    <section class="s-hero">
         <div class="container">
             <div class="text">
                 <h3>Abra sua conta, é só baixar o app!</h3>
@@ -69,8 +69,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="s-card-neon">
+    </section>
+    <section class="s-card-neon">
         <div class="container">
             <div class="left-area">
                 <div class="ilustra-mockup">
@@ -153,10 +153,73 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="s-depoimentos">
+        <div class="container">
+            <div class="top">
+                <h2>
+                    <span>Prático, fácil, moderno</span>
+                    Você resolve tudo sem estresse 😁
+                </h2>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="slide-depoimentos">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-depoimento">
+                            <div class="user">
+                                <strong>@will</strong>
+                                <img src="img/icon-twiter.svg" alt="Ícone do Twitter">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto blanditiis dolore doloremque doloribus expedita hic...</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-depoimento">
+                            <div class="user">
+                                <strong>@will</strong>
+                                <img src="img/icon-twiter.svg" alt="Ícone do Twitter">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto blanditiis dolore doloremque doloribus expedita hic...</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-depoimento">
+                            <div class="user">
+                                <strong>@will</strong>
+                                <img src="img/icon-twiter.svg" alt="Ícone do Twitter">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto blanditiis dolore doloremque doloribus expedita hic...</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-depoimento">
+                            <div class="user">
+                                <strong>@will</strong>
+                                <img src="img/icon-twiter.svg" alt="Ícone do Twitter">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto blanditiis dolore doloremque doloribus expedita hic...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
 
 </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".slide-depoimentos", {
+        slidesPerView: 3,
+        spaceBetween: 32,
+        pagination: {
+          el: ".s-depoimentos .top .swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 </body>
 </html>
